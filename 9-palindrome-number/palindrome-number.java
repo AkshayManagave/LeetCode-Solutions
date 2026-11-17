@@ -7,11 +7,6 @@ class Solution {
             r = (r*10) + d;
             v /= 10;
         }
-        if(x == r){
-            return true;
-        }
-        else{
-            return false;
-        }
+        return x==r;
     }
 }
